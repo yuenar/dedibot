@@ -1,0 +1,1 @@
+slice -z 0,50,0.5 -w 912 -h 1140 stl\1.stl -o bmp\001.bmp

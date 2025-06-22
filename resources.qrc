@@ -1,0 +1,15 @@
+﻿<RCC>
+    <qresource prefix="/">
+        <file>AppIcon.rc</file>
+        <file>lang_zh.ts</file>
+        <file>UI/MainWindow.ui</file>
+        <file>UI/ModelListWidget.ui</file>
+        <file>UI/MoveModelWidget.ui</file>
+        <file>UI/RotateModelWidget.ui</file>
+        <file>UI/ScaleModelWidget.ui</file>
+        <file>UI/SupportParamWidget.ui</file>
+        <file>UI/SliceModelDialog.ui</file>
+        <file>UI/Uart.ui</file>
+        <file>resource.h</file>
+    </qresource>
+</RCC>

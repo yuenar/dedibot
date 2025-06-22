@@ -1,0 +1,71 @@
+QWidget
+{
+    background:#444444;
+}
+
+QTreeWidget
+{
+    font:bold,25px,arial;
+    color:white;
+}
+QTreeWidget::item:has-children:hover
+{
+    background-color:#999;
+}
+
+QPushButton
+{
+    color:white;
+}
+QPushButton#btnMain_import
+{
+     border-image: url(:/Resources/import.png);
+}
+QPushButton#btnMain_print
+{
+     border-image: url(:/Resources/start.png);
+}
+/*QPushButton{
+	border-style: none;
+	border: 0px;
+	color: #F0F0F0;
+	padding: 5px;	
+	min-height: 20px;
+	border-radius:5px;
+	background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #4D4D4D, stop:1 #292929); 
+}
+
+QPushButton[focusPolicy="0"] {
+	border-style: none;
+	border: 0px;
+	color: #F0F0F0;
+	padding: 0px;	
+	min-height: 10px;
+	border-radius:3px;
+	background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #4D4D4D, stop:1 #292929); 
+}
+
+QPushButton:hover{ 
+	background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #636363, stop:1 #575757);
+}
+
+QPushButton:pressed{ 
+	background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #4D4D4D, stop:1 #292929);
+}*/
+
+QPushButton#btnMain_min,QPushButton#btnMain_max,QPushButton#btnMain_close
+{
+	border-radius:0px;
+	color: #F0F0F0;
+	background-color:rgba(0,0,0,0);
+	border-style:none;
+}
+
+QPushButton#btnMenu:hover,QPushButton#btnMain_min:hover,QPushButton#btnMain_max:hover{
+	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(25, 134, 199, 0), stop:1 #636363);
+}
+
+QPushButton#btnMain_close:hover{
+	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(238, 0, 0, 128), stop:1 rgba(238, 44, 44, 255));
+}
+
